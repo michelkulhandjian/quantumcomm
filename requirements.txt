@@ -1,0 +1,17 @@
+# Python dependencies for the quantumcomm repository.
+#
+# Everything is pure Python + NumPy + Matplotlib.  No SageMath, Magma, or
+# GAP dependencies.  Tested with Python 3.12 on Windows and Linux.
+#
+# Minimum versions listed below are conservative and reflect the oldest
+# releases known to work correctly with the scripts.  Any newer
+# minor/patch release should also work.  If you hit a version issue,
+# `pip install -U numpy matplotlib` almost always resolves it.
+
+# Numerical arrays, linear algebra, and Gaussian elimination over F_q.
+# Used by every compute_dmin_*.py, verify_*.py, and monte_carlo_qber.py.
+numpy>=1.24
+
+# Plot rendering for Figs. 3, 4, and 5.
+# Only needed by plot_qber.py, plot_code_params.py, and plot_advantage.py.
+matplotlib>=3.6
