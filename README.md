@@ -66,7 +66,7 @@ Monte-Carlo QBER curves.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/mkulhandjian/quantumcomm.git
+git clone https://github.com/michelkulhandjian/quantumcomm.git
 cd quantumcomm
 
 # 2. Install dependencies (Python 3.10+ recommended)
@@ -114,7 +114,7 @@ If you use this code or refer to the theoretical results, please cite:
   journal = {IEEE Open Journal of the Communications Society},
   year    = {2026},
   note    = {accepted for publication},
-  url     = {https://github.com/mkulhandjian/quantumcomm}
+  url     = {https://github.com/michelkulhandjian/quantumcomm}
 }
 ```
 
